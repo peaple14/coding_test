@@ -37,7 +37,7 @@ public class Main {
         return ( a * b) / gcd(a, b);
     }
 
-    //유클리 호제법
+    //유클리드 호제법
     public static long gcd(long a, long b) {
         long r = 0;
         while (b != 0) {
