@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 //_CRT_SECURE_NO_WARNINGS;
+//22년도에 푼겁니다.
 
 int main() {
     int how;
