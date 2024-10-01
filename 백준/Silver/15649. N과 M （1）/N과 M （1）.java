@@ -15,13 +15,13 @@ public class Main {
 
         arr = new int[B];
         visit = new boolean[A];
-        BFS(A, B, 0,bw);
+        DFS(A, B, 0,bw);
         bw.flush();
         bw.close();
         br.close();
     }
 
-    public static void BFS(int A,int B,int depth,BufferedWriter bw) throws IOException {
+    public static void DFS(int A,int B,int depth,BufferedWriter bw) throws IOException {
         if (depth == B) { //깊이가 같다면
             for (int val : arr) {
                 bw.write(val + " ");
